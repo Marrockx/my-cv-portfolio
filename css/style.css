@@ -60,10 +60,10 @@ main section#skills .section-group {
   margin-left: 0.6rem;
 }
 
-.section-group .section-item .section-item-head {
+/* .section-group .section-item .section-item-head {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 div.section-item h3.section-item-heading span.company {
   font-weight: 400;
@@ -76,7 +76,7 @@ h3.section-item-heading {
 }
 
 #experience h3.section-item-heading {
-  margin-bottom: -4em;
+  /* margin-bottom: -4em; */
 }
 
 /* .section-item-head {
