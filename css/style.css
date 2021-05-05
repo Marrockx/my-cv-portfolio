@@ -1,0 +1,89 @@
+// STYLES
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+body {
+  font-family: Calibri, Source-Sans-Pro, Helvetica, sans-serif;
+  font-size: 0.65em;
+  margin: 5em auto;
+}
+
+.container {
+  padding: 1em 4em;
+  border-radius: 8px;
+  box-shadow: 1em 8em 28em 2em #ccc;
+  margin: auto;
+  width: 75%;
+  max-width: 750px;
+  box-sizing: border-box;
+}
+
+header section#bio {
+  display: flex;
+  justify-content: space-between;
+}
+
+header section#bio div.name {
+  font-size: 1.625em;
+  font-weight: normal;
+}
+
+div.name h1 {
+  font-weight: 500;
+  margin-top: 0.36rem;
+}
+
+header section#bio .contact ul {
+  list-style: none;
+  margin-right: 4.5rem;
+}
+
+header #objective p {
+  font-style: italic;
+  text-align: center;
+}
+
+h2.sub-heading {
+  font-size: 1.4em;
+  border-bottom: 1px solid #333;
+  margin-bottom: 0;
+}
+
+main section#skills .section-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -0.5rem;
+  margin-left: 0.6rem;
+}
+
+.section-group .section-item .section-item-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.section-item h3.section-item-heading span.company {
+  font-weight: 400;
+}
+
+h3.section-item-heading {
+  /* background-color: #eee; */
+  margin-top: 0;
+  z-index: 200;
+  width: 50vw;
+}
+
+#experience h3.section-item-heading {
+  margin-bottom: -4em;
+}
+
+/* .section-item-head {
+  background-color: #eee;
+} */
+
+div .section-item .section-item-points {
+  margin-left: -2.8em;
+}
